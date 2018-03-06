@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,500,700');
+
+* {
+  font-family: Nunito, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: $m-size;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  color: rgb(255, 13, 182);
+  font-weight: 700;
+}
