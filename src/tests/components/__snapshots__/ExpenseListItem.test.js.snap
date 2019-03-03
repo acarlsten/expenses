@@ -12,8 +12,7 @@ exports[`should render ExpenseListItem with expense 1`] = `
   </Link>
   <p>
     Summa: 
-    1.95
-     kr
+    1,95 kr
   </p>
   <p>
     Skapad: 
