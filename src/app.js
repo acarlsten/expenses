@@ -7,6 +7,7 @@ import 'normalize.css/normalize.css'
 import './styles/styles.scss'
 import moment from 'moment'
 import 'react-dates/lib/css/_datepicker.css'
+import './firebase/firebase'
 
 //perhaps not the best place
 moment.locale(navigator.language)
