@@ -2,29 +2,30 @@
 
 exports[`should render header correctly 1`] = `
 <header
-  className="navbar"
+  className="header"
 >
-  <h1>
-    Expensify
-  </h1>
-  <NavLink
-    activeClassName="is-active"
-    aria-current="page"
-    to="/dashboard"
+  <div
+    className="content-container"
   >
-    Dashboard
-  </NavLink>
-  <NavLink
-    activeClassName="is-active"
-    aria-current="page"
-    to="/create"
-  >
-    Create Expense
-  </NavLink>
-  <button
-    onClick={[MockFunction]}
-  >
-    Logout
-  </button>
+    <div
+      className="header__content"
+    >
+      <Link
+        className="header__title"
+        replace={false}
+        to="/dashboard"
+      >
+        <h1>
+          Expensify
+        </h1>
+      </Link>
+      <button
+        className="button button--link"
+        onClick={[MockFunction]}
+      >
+        Logout
+      </button>
+    </div>
+  </div>
 </header>
 `;

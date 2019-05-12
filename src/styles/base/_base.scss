@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,500,700');
 
-* {
-  font-family: Nunito, Helvetica, sans-serif;
-}
-
 html {
   font-size: 62.5%;
 }
 
 body {
+  font-family: Nunito, Helvetica, sans-serif;
+  color: $dark-grey;
   font-size: $m-size;
   margin: 0;
+  line-height: 1.6;
 }
 
 button {

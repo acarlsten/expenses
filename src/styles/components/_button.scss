@@ -1,0 +1,16 @@
+.button {
+  font-family: Nunito, Helvetica, sans-serif;
+  background: $blue;
+  color: $white;
+  border: none;
+  font-size: $font-size-large;
+  font-weight: 300;
+  padding: $s-size;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+}
+
+.button--link {
+  background: none;
+}
