@@ -2,7 +2,6 @@
 
 exports[`should render EditExpensePage correctly 1`] = `
 <div>
-  <Connect(Header) />
   <h1>
     Edit Expense
   </h1>

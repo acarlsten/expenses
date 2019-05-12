@@ -2,7 +2,6 @@
 
 exports[`should render AddExpensePage correctly 1`] = `
 <div>
-  <Connect(Header) />
   <h1>
     Add Expense
   </h1>
