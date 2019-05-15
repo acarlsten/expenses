@@ -7,8 +7,14 @@ exports[`should render ExpenseSummary with no expenses 1`] = `
   <div
     className="content-container"
   >
-    <h1>
-      No expenses, add one!
+    <h1
+      className="page-header__title"
+    >
+      Viewing 
+      <span>
+        0
+      </span>
+       expenses.
     </h1>
     <div
       className="page-header__actions"

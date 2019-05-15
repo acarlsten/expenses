@@ -11,7 +11,9 @@ export const ExpensesSummary = props => (
   <div className="page-header">
     <div className="content-container">
       {props.expensesCount === 0 ? (
-        <h1>No expenses, add one!</h1>
+        <h1 className="page-header__title">
+          Viewing <span>0</span> expenses.
+        </h1>
       ) : (
         <h1 className="page-header__title">
           Viewing <span>{props.expensesCount}</span>{' '}
