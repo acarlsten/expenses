@@ -1,5 +1,7 @@
 # Potential changes and upgrades
 
-1. Add confirmation modal when removing expense
+1. Add confirmation modal when removing expense with <ReactModal>
+
    ~~2. Show summary of hidden expenses in /dashboard~~
+
 2. Add support for other social login (Github, fb, twitter)

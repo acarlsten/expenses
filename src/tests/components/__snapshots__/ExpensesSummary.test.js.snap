@@ -14,7 +14,8 @@ exports[`should render ExpenseSummary with no expenses 1`] = `
       <span>
         0
       </span>
-       expenses.
+       expenses. There are 
+       expenses in total.
     </h1>
     <div
       className="page-header__actions"
@@ -38,21 +39,31 @@ exports[`should render ExpenseSummary with one expense 1`] = `
   <div
     className="content-container"
   >
-    <h1
-      className="page-header__title"
-    >
-      Viewing 
-      <span>
-        1
-      </span>
-       
-      expense
-       totalling
-       
-      <span>
-        1,95 kr
-      </span>
-    </h1>
+    <div>
+      <h1
+        className="page-header__title"
+      >
+        Viewing 
+        <span>
+          1
+        </span>
+         
+        expense
+         totalling
+         
+        <span>
+          1,95 kr
+          .
+        </span>
+      </h1>
+      <p
+        className="page-header__subtitle"
+      >
+        There are 
+        <span />
+         expenses in total.
+      </p>
+    </div>
     <div
       className="page-header__actions"
     >
@@ -75,21 +86,31 @@ exports[`should render ExpenseSummary with several expenses 1`] = `
   <div
     className="content-container"
   >
-    <h1
-      className="page-header__title"
-    >
-      Viewing 
-      <span>
-        3
-      </span>
-       
-      expenses
-       totalling
-       
-      <span>
-        1 141,95 kr
-      </span>
-    </h1>
+    <div>
+      <h1
+        className="page-header__title"
+      >
+        Viewing 
+        <span>
+          3
+        </span>
+         
+        expenses
+         totalling
+         
+        <span>
+          1 141,95 kr
+          .
+        </span>
+      </h1>
+      <p
+        className="page-header__subtitle"
+      >
+        There are 
+        <span />
+         expenses in total.
+      </p>
+    </div>
     <div
       className="page-header__actions"
     >
