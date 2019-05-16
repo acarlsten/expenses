@@ -15,3 +15,8 @@
     font-weight: 700;
   }
 }
+
+.page-header__subtitle {
+  @extend .list-item__subtitle;
+  margin: 0;
+}
